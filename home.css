@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, 
+    Arial, sans-serif;
+    overflow-x: hidden;
+}
+h1{
+    display: inline-block;
+    font-size: 20px;
+    width: 10px;
+}
+h2,h3,h4{
+    text-transform: uppercase;
+}
+.tag{
+    display: inherit;
+    font-size: 13px;
+    margin: -40px 10px 0 0;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+a:hover{
+    color: lightgreen;
+}
+aside{
+    text-align: center;
+    font-size: 12px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+header{
+    margin: 30px 0 0 0;
+}
+p{
+    text-align: center;
+}
+aside p{
+    margin: 21px 0px 0px 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #f5d4a2;
+}
+#speciallink{
+    display: block;
+    border: 1px groove #0000ff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100px;
+    margin: 13px auto 50px auto;
+    background: #0000ff;
+    color: #fff;
+}
+#speciallink:hover{
+    background: #fff;
+    color: #0000ff;
+}
+section a{
+    display: block;
+    margin: 20px 0 10px 0px
+}
+section a:first-child{
+    font-size: 20px;
+    font-weight: 900;
+}
+#specialparagraph{
+    position: absolute;
+    margin: 23px 0;
+    font-size: smaller;
+}
+footer{
+    padding: 24px 0;
+}
+section{
+    margin: 20px;
+}
+.top{
+    padding-bottom: 10px;
+}
+.footer,.top{
+    background: rgb(136, 117, 219);
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+img:active{
+    border-radius: 5px;
+    border: 3.5px solid #00ff00
+}
+img:hover{
+    border-radius: 5px;
+    border: 3.5px solid #00ff00
+}
+@media screen and (min-width: 200px){
+    img{
+        width: 194px;
+    }
+    #specialparagraph{
+        margin: 45px 0;
+    }
+}
+@media screen and (min-width: 300px){
+    img{
+        width: 250px;
+    }
+    #specialparagraph{
+        margin: 25px 0;
+    }
+}
+@media screen and (min-width: 400px){
+    img{
+        width: 337px;
+    }
+}
+@media screen and (min-width: 700px){
+    h1{
+      margin: 8px 4px;  
+    }
+    h1 a{
+        font-size: xx-large;
+    }
+    .tag {
+        font-size: 16px;
+    }
+    nav a {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    aside p {
+        font-size: 20px;
+    }
+    aside {
+        text-align: center;
+        font-size: 15px;
+    }
+    img{
+        width: 337px;
+    }
+}
+@media screen and (min-width: 970px){
+    section{
+        display: inline-block;
+        width: 283px;
+        margin-bottom: 25px;
+    }
+    #special{
+        position: absolute;
+    }
+    nav a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    img {
+        width: 251px;
+        height: 160px;
+    }
+}
+@media screen and (min-width: 1050px){
+    section{
+        width: 309px;
+    }
+}
+@media screen and (min-width: 1140px){
+    section{
+        width: 340px;
+    }
+}
+@media screen and (min-width: 1207px){
+    section{
+        width: 362px;
+    }
+}
+@media screen and (min-width: 1219px){
+    section{
+        width: 370px;
+    }
+}
+@media screen and (min-width: 1280px){
+    section{
+        margin-left: 36px;
+    }
+}
+@media screen and (min-width: 1344px){
+    section{
+        margin-left: 56px;
+    }
+}
